@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_main" android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/dialog_act" />
+        <item android:id="@+id/nav_find_friends" android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/find_friends_act" />
+
+    </group>
+
+    <item android:title="Exit">
+        <menu>
+            <item android:id="@+id/nav_preferences" android:icon="@android:drawable/ic_menu_preferences"
+                android:title="@string/settings_act" />
+            <item android:id="@+id/nav_exit" android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="@string/exit_act" />
+        </menu>
+    </item>
+
+</menu>
