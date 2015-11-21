@@ -90,4 +90,6 @@
     </string>
     <string name="thanks_btn">Thanks</string>
     <string name="thanx_text"><![CDATA[Special thanks to:\n Alexey Antonov - idea\n Natalia Antonova - PR & testing \n Also thanks: \n Sansung SW&IT School\n МАОУ ДОД ЦТРиГО ЦИТОИС - testing]]></string>
+    <string name="test_dialog_btn">Test Dialog</string>
+    <string name="developer_mode">Develop mode</string>
 </resources>

@@ -37,6 +37,8 @@
     <string name="pref_description_social_recommendations">Рекомендации людей для переписки, основанный на истории переписки</string>
     <string name="thanks_btn">Благодарности</string>
     <string name="thanx_text"><![CDATA[Special thanks to:\n Alexey Antonov - idea\n Natalia Antonova - PR & testing \n Also thanks: \n Sansung SW&IT School\n МАОУ ДОД ЦТРиГО ЦИТОИС - testing]]></string>
+    <string name="test_dialog_btn">Test Dialog</string>
+    <string name="developer_mode">Develop mode</string>
     <string-array name="pref_example_list_titles">
         <item>Всегда</item>
         <item>Когда возможно</item>
