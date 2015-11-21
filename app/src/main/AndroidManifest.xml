@@ -61,7 +61,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="xyz.citrus.talk.MainActivity" />
         </activity>
-        <activity android:name=".DialogActivity" >
+        <activity android:name=".DialogActivity"
+            android:label="@string/pref_default_display_name"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 

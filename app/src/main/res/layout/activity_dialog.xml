@@ -10,22 +10,23 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:drawable/ic_menu_send"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:text=""
+        android:drawableRight="@android:drawable/ic_menu_send"
+        android:text="@string/send_btn_title"
         android:id="@+id/buttonSend"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_toLeftOf="@+id/dialogListView"
+        android:layout_alignRight="@+id/dialogListView"
+        android:layout_alignEnd="@+id/dialogListView" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/dialogEditText"
         android:layout_alignBottom="@+id/buttonSend"
-        android:layout_toLeftOf="@+id/buttonSend"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/buttonSend"
+        android:layout_toStartOf="@+id/buttonSend" />
 
     <ListView
         android:layout_width="wrap_content"
